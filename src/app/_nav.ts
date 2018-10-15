@@ -9,6 +9,17 @@ export const navItems = [
     }
   },
   {
+    name: 'Master Data',
+    url: '/base',
+    icon: 'icon-layers',
+    children: [
+      {
+        name: 'Employee Master',
+        url: '/base/tables',
+        icon: 'icon-list'
+      }]
+  },
+  /*{
     title: true,
     name: 'Theme'
   },
@@ -232,5 +243,5 @@ export const navItems = [
     url: 'http://coreui.io/pro/angular/',
     icon: 'icon-layers',
     variant: 'danger'
-  }
+  }*/
 ];

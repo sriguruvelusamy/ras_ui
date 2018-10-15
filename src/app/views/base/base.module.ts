@@ -42,7 +42,11 @@ import { ProgressComponent } from './progress.component';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { TooltipsComponent } from './tooltips.component';
 
+// Modal Component
+import { ModalModule } from 'ngx-bootstrap/modal';
+//import { ModalsComponent } from './modals.component';
 
+import { DataTablesModule } from 'angular-datatables';
 // Components Routing
 import { BaseRoutingModule } from './base-routing.module';
 
@@ -58,7 +62,9 @@ import { BaseRoutingModule } from './base-routing.module';
     PaginationModule.forRoot(),
     PopoverModule.forRoot(),
     ProgressbarModule.forRoot(),
-    TooltipModule.forRoot()
+    TooltipModule.forRoot(),
+    ModalModule.forRoot(),
+    DataTablesModule
   ],
   declarations: [
     CardsComponent,

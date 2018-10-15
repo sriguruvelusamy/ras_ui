@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
-
+import * as $ from 'jquery';
+import 'datatables.net';
 @Component({
   // tslint:disable-next-line
   selector: 'body',
